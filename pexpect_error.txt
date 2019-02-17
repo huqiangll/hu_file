@@ -1,0 +1,130 @@
+Traceback (most recent call last):
+  File "C:/Users/huqia/PycharmProjects/untitled2/test.py", line 3, in <module>
+    client.run('ssh root@106.15.224.173')
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 200, in run
+    child = spawn(command, maxread=2000, logfile=logfile, cwd=cwd, env=env)
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 246, in spawn
+    return spawn_windows(command, args, timeout, maxread, searchwindowsize, logfile, cwd, env)
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 1574, in __init__
+    self._spawn(command, args)
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 1620, in _spawn
+    raise ExceptionPexpect('The command was not found or was not executable: %s.' % self.command)
+ExceptionPexpect: The command was not found or was not executable: ssh root@106.15.224.173.
+
+Traceback (most recent call last):
+  File "C:/Users/huqia/PycharmProjects/untitled2/test.py", line 3, in <module>
+    client.run('ssh root@106.15.224.173', events={'(?i)password': 'Huqiang2018'})
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 200, in run
+    child = spawn(command, maxread=2000, logfile=logfile, cwd=cwd, env=env)
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 246, in spawn
+    return spawn_windows(command, args, timeout, maxread, searchwindowsize, logfile, cwd, env)
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 1574, in __init__
+    self._spawn(command, args)
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 1620, in _spawn
+    raise ExceptionPexpect('The command was not found or was not executable: %s.' % self.command)
+ExceptionPexpect: The command was not found or was not executable: ssh root@106.15.224.173.
+
+Traceback (most recent call last):
+  File "C:/Users/huqia/PycharmProjects/untitled2/test.py", line 3, in <module>
+    out = client.run('ssh root@106.15.224.173', events={'(?i)password': 'Huqiang2018'})
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 200, in run
+    child = spawn(command, maxread=2000, logfile=logfile, cwd=cwd, env=env)
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 246, in spawn
+    return spawn_windows(command, args, timeout, maxread, searchwindowsize, logfile, cwd, env)
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 1574, in __init__
+    self._spawn(command, args)
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 1620, in _spawn
+    raise ExceptionPexpect('The command was not found or was not executable: %s.' % self.command)
+ExceptionPexpect: The command was not found or was not executable: ssh root@106.15.224.173.
+
+Traceback (most recent call last):
+  File "C:/Users/huqia/PycharmProjects/untitled2/test.py", line 3, in <module>
+    out = client.run("ssh root@106.15.224.173 'ls -l'", events={'(?i)password':'Huqiang2018\\n'})
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 200, in run
+    child = spawn(command, maxread=2000, logfile=logfile, cwd=cwd, env=env)
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 246, in spawn
+    return spawn_windows(command, args, timeout, maxread, searchwindowsize, logfile, cwd, env)
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 1574, in __init__
+    self._spawn(command, args)
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 1620, in _spawn
+    raise ExceptionPexpect('The command was not found or was not executable: %s.' % self.command)
+ExceptionPexpect: The command was not found or was not executable: ssh root@106.15.224.173 'ls -l'.
+
+Traceback (most recent call last):
+  File "C:/Users/huqia/PycharmProjects/untitled2/test.py", line 3, in <module>
+    (command_output, exitstatus) = client.run("ssh root@106.15.224.173 'ls -l'", events={'(?i)password':'Huqiang2018\\n'})
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 200, in run
+    child = spawn(command, maxread=2000, logfile=logfile, cwd=cwd, env=env)
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 246, in spawn
+    return spawn_windows(command, args, timeout, maxread, searchwindowsize, logfile, cwd, env)
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 1574, in __init__
+    self._spawn(command, args)
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 1620, in _spawn
+    raise ExceptionPexpect('The command was not found or was not executable: %s.' % self.command)
+ExceptionPexpect: The command was not found or was not executable: ssh root@106.15.224.173 'ls -l'.
+
+Traceback (most recent call last):
+  File "C:/Users/huqia/PycharmProjects/untitled2/test.py", line 3, in <module>
+    (command_output, exitstatus) = client.run("ssh root@106.15.224.173 'ls -l'", events={'(?i)password':'Huqiang2018\\n'})
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 200, in run
+    child = spawn(command, maxread=2000, logfile=logfile, cwd=cwd, env=env)
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 246, in spawn
+    return spawn_windows(command, args, timeout, maxread, searchwindowsize, logfile, cwd, env)
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 1574, in __init__
+    self._spawn(command, args)
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 1620, in _spawn
+    raise ExceptionPexpect('The command was not found or was not executable: %s.' % self.command)
+ExceptionPexpect: The command was not found or was not executable: ssh root@106.15.224.173 'ls -l'.
+
+Traceback (most recent call last):
+  File "C:/Users/huqia/PycharmProjects/untitled2/test.py", line 3, in <module>
+    child = client.run("ssh root@106.15.224.173 'ls -l'", events={'(?i)password':'Huqiang2018\\n'})
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 200, in run
+    child = spawn(command, maxread=2000, logfile=logfile, cwd=cwd, env=env)
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 246, in spawn
+    return spawn_windows(command, args, timeout, maxread, searchwindowsize, logfile, cwd, env)
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 1574, in __init__
+    self._spawn(command, args)
+  File "C:\Users\huqia\PycharmProjects\untitled2\client.py", line 1620, in _spawn
+    raise ExceptionPexpect('The command was not found or was not executable: %s.' % self.command)
+ExceptionPexpect: The command was not found or was not executable: ssh root@106.15.224.173 'ls -l'.
+
+Traceback (most recent call last):
+  File "C:/Users/huqia/PycharmProjects/untitled2/test.py", line 3, in <module>
+    child = wexpect.run("ssh root@106.15.224.173 'ls -l'", events={'(?i)password': 'Huqiang2018\\n'})
+  File "C:\Users\huqia\PycharmProjects\untitled2\wexpect.py", line 200, in run
+    child = spawn(command, maxread=2000, logfile=logfile, cwd=cwd, env=env)
+  File "C:\Users\huqia\PycharmProjects\untitled2\wexpect.py", line 246, in spawn
+    return spawn_windows(command, args, timeout, maxread, searchwindowsize, logfile, cwd, env)
+  File "C:\Users\huqia\PycharmProjects\untitled2\wexpect.py", line 1574, in __init__
+    self._spawn(command, args)
+  File "C:\Users\huqia\PycharmProjects\untitled2\wexpect.py", line 1620, in _spawn
+    raise ExceptionPexpect('The command was not found or was not executable: %s.' % self.command)
+ExceptionPexpect: The command was not found or was not executable: ssh root@106.15.224.173 'ls -l'.
+
+Traceback (most recent call last):
+  File "C:/Users/huqia/PycharmProjects/untitled2/test.py", line 3, in <module>
+    child = wexpect.run("ssh root@106.15.224.13 'ls -l'", events={'(?i)password': 'Huqiang2018\\n'})
+  File "C:\Users\huqia\PycharmProjects\untitled2\wexpect.py", line 200, in run
+    child = spawn(command, maxread=2000, logfile=logfile, cwd=cwd, env=env)
+  File "C:\Users\huqia\PycharmProjects\untitled2\wexpect.py", line 246, in spawn
+    return spawn_windows(command, args, timeout, maxread, searchwindowsize, logfile, cwd, env)
+  File "C:\Users\huqia\PycharmProjects\untitled2\wexpect.py", line 1574, in __init__
+    self._spawn(command, args)
+  File "C:\Users\huqia\PycharmProjects\untitled2\wexpect.py", line 1620, in _spawn
+    raise ExceptionPexpect('The command was not found or was not executable: %s.' % self.command)
+ExceptionPexpect: The command was not found or was not executable: ssh root@106.15.224.13 'ls -l'.
+
+Traceback (most recent call last):
+  File "C:/Users/huqia/PycharmProjects/untitled2/test.py", line 3, in <module>
+    child = wexpect.run("ssh root@106.15.224.173 'ls -l'", events={'(?i)password': 'Huqiang2018\\n'})
+  File "C:\Users\huqia\PycharmProjects\untitled2\wexpect.py", line 200, in run
+    child = spawn(command, maxread=2000, logfile=logfile, cwd=cwd, env=env)
+  File "C:\Users\huqia\PycharmProjects\untitled2\wexpect.py", line 246, in spawn
+    return spawn_windows(command, args, timeout, maxread, searchwindowsize, logfile, cwd, env)
+  File "C:\Users\huqia\PycharmProjects\untitled2\wexpect.py", line 1574, in __init__
+    self._spawn(command, args)
+  File "C:\Users\huqia\PycharmProjects\untitled2\wexpect.py", line 1620, in _spawn
+    raise ExceptionPexpect('The command was not found or was not executable: %s.' % self.command)
+ExceptionPexpect: The command was not found or was not executable: ssh root@106.15.224.173 'ls -l'.
+
